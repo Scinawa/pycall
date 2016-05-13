@@ -1,7 +1,9 @@
+import sys
+
 """Custom error classes for signaling issues."""
 
-
-from exceptions import Exception
+if (sys.version_info < (2,7,11)):
+    from exceptions import Exception
 
 
 class PycallError(Exception):
