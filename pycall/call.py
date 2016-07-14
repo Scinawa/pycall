@@ -53,7 +53,7 @@ class Call(object):
         if self.callerid:
             c.append('Callerid: ' + self.callerid)
         if self.variables:
-            for var, value in self.variables.items():
+            for var, value in list(self.variables.items()):
                 c.append('Set: %s=%s' % (var, value))
         if self.account:
             c.append('Account: ' + self.account)
