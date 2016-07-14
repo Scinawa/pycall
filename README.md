@@ -20,4 +20,4 @@ Details
 Build Status
 ------------
 
-[![Build Status](https://secure.travis-ci.org/rdegges/pycall.png?branch=master)](http://travis-ci.org/rdegges/pycall)
+[![Build Status](https://secure.travis-ci.org/rdegges/pycall.png?branch=master)](http://travis-ci.org/Scinawa/pycall)
